@@ -3,3 +3,8 @@
 .jekyll-cache
 .sass-cache
 _site
+
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+venv/

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<style>
+     .equalDivide tr td { width:30%; } tr th { width:20%; }
+
+     /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 49%;
+        padding: 1px;
+      }
+
+      .column img {
+        margin-top: 12px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+</style>
+
+<header>
+    {% if site.theme_config.show_navbar == true %}
+      {% include horizontal_list.html collection=site.data.navbar.navbar_entries %}
+      <div class="dashed"></div>
+    {% endif %}
+</header>
+
+{{ content }}

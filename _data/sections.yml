@@ -1,0 +1,36 @@
+subunits:
+
+  - title: Timing
+    url: precompiled_htmls/timing
+    desc: Every task
+
+  - title: Unsharded Tasks
+    url: precompiled_htmls/unsharded_tasks
+    desc: Summary on all unsharded tasks
+
+  - title: CCS
+    url: precompiled_htmls/griddedCCS
+    desc: Summary across shards
+
+  - title: AlignReads
+    url: precompiled_htmls/griddedAlignReads
+    desc: Summary across shards
+
+  - title: BamToFastq
+    url: precompiled_htmls/griddedBamToFastq
+    desc: Summary across shards
+
+  - title: ExtractHifiReads
+    url: precompiled_htmls/griddedExtractHifiReads
+    desc: Summary across shards
+    
+  - title: Failed Tasks
+    url: precompiled_htmls/failed_tasks
+    desc: Focusing on the failed tasks
+    highlight: WIP
+
+  - title: Interestingly...
+    url: precompiled_htmls/interesting_tasks
+    desc: Tasks, shards that show un-common behaviors
+    highlight: WIP
+

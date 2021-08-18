@@ -1,0 +1,22 @@
+recommendations:
+  - title: AlignReads
+    url: false
+    entries:
+      - title: lower CPU to 50% current value
+        url: false
+
+      - title: lower memory to 30% current value
+        url: false
+
+      - title: lower disk to 20% current value
+        url: false
+        entries:
+          - title: input size is stable
+            url: false
+
+          - title: disk usage is stable
+            url: false
+
+  - title: ...
+    url: false
+

@@ -1,0 +1,26 @@
+{
+  "PBFlowcell.ShardLongReads.prefix": "String (optional, default = \"shard\")",
+  "PBFlowcell.MergeAllFastqs.prefix": "String (optional, default = \"merged\")",
+  "PBFlowcell.AlignReads.prefix": "String (optional, default = \"out\")",
+  "PBFlowcell.CCS.all": "Boolean (optional, default = true)",
+  "PBFlowcell.CCS.by_strand": "Boolean (optional, default = false)",
+  "PBFlowcell.FinalizeAlignedBai.name": "String? (optional)",
+  "PBFlowcell.SummarizeAlignedPBI.qual_threshold": "Int (optional, default = 0)",
+  "PBFlowcell.ShardLongReads.num_threads": "Int (optional, default = 8)",
+  "PBFlowcell.CCS.kinetics": "Boolean (optional, default = false)",
+  "PBFlowcell.FinalizeCCSReport.name": "String? (optional)",
+  "PBFlowcell.pbi": "File",
+  "PBFlowcell.bam": "File",
+  "PBFlowcell.experiment_type": "String",
+  "PBFlowcell.dir_prefix": "String",
+  "PBFlowcell.SummarizeSubreadsPBI.qual_threshold": "Int (optional, default = 0)",
+  "PBFlowcell.FinalizeCCSUnalignedBam.name": "String? (optional)",
+  "PBFlowcell.num_shards": "Int (optional, default = 50)",
+  "PBFlowcell.ExtractHifiReads.prefix": "String (optional, default = \"hifi\")",
+  "PBFlowcell.ref_map_file": "File",
+  "PBFlowcell.gcs_out_root_dir": "String",
+  "PBFlowcell.FinalizeAlignedBam.name": "String? (optional)",
+  "PBFlowcell.SM": "String",
+  "PBFlowcell.ID": "String"
+}
+
